@@ -1,0 +1,39 @@
+============================================================
+  DeTinyLLM — Inference Demo
+============================================================
+
+▶  HUMAN (expected: Human-written)
+   Input: So I finally tried that new coffee place on 5th street — honestly kind of underwhelmed. The oat milk latte was fine but ...
+    Rewrite batch 1/1 ...
+
+┌─ Result ────────────────────────────────────
+│  🧑  Prediction : Human-written
+│  Confidence : 84.0%
+│  P(Human)   : 84.0%
+│  P(AI)      : 16.0%
+│  Rewrite    : So I finally tried that new coffee place on 5th street — honestly kind of underwhelmed. The oat milk latte was fine but nothing special, and...
+└────────────────────────────────────────────
+
+▶  AI (expected: AI-generated)
+   Input: The integration of artificial intelligence into modern healthcare systems represents a transformative advancement with f...
+    Rewrite batch 1/1 ...
+
+┌─ Result ────────────────────────────────────
+│  🤖  Prediction : AI-generated
+│  Confidence : 59.7%
+│  P(Human)   : 40.3%
+│  P(AI)      : 59.7%
+│  Rewrite    : The integration of artificial intelligence into modern healthcare systems represents a transformative advancement with far-reaching implicat...
+└────────────────────────────────────────────
+
+▶  AI paraphrased (adversarial test)
+   Input: AI is changing healthcare a lot — doctors can use machine learning to spot patterns in data they might otherwise miss, w...
+    Rewrite batch 1/1 ...
+
+┌─ Result ────────────────────────────────────
+│  🤖  Prediction : AI-generated
+│  Confidence : 65.6%
+│  P(Human)   : 34.4%
+│  P(AI)      : 65.6%
+│  Rewrite    : Rewrite: AI is changing healthcare a lot — doctors can use machine learning to spot patterns in data they might otherwise miss, which helps ...
+└────────────────────────────────────────────

@@ -1,0 +1,48 @@
+# Python
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Virtual environments
+
+venv/
+.env/
+
+# Model files
+
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Dataset files
+
+*.parquet
+*.csv
+
+# Cache
+
+.cache/
+hf_cache/
+huggingface/
+
+# Training artifacts
+
+checkpoints/
+models/
+logs/
+
+# Colab
+
+pipeline_state.json
+
+# OS files
+
+.DS_Store
+Thumbs.db
