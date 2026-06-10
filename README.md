@@ -125,8 +125,8 @@ The notebook uses two datasets automatically:
 
 | Dataset | Source | Size | Notes |
 |---------|--------|------|-------|
-| **HC3** (Hello-SimpleAI) | HuggingFace — loaded automatically | ~37k Q&A pairs | Human vs ChatGPT answers |
-| **AI vs Human Text** (Kaggle) | [Download here](https://www.kaggle.com/datasets/shanegerami/ai-vs-human-text) | ~487 MB | Must be placed manually |
+| **HC3** (Human Chatgpt Corpus Collection) | HuggingFace — loaded automatically | ~37k Q&A pairs | Human vs ChatGPT answers |
+| **AI vs Human Text** (Kaggle) | [Download here](https://www.kaggle.com/datasets/shanegerami/ai-vs-human-text) | 1.1 GB | Must be placed manually |
 
 **Setup:** Place the Kaggle CSV at:
 ```
